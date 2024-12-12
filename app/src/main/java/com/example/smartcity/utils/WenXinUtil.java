@@ -16,8 +16,9 @@ import java.util.concurrent.TimeUnit;
  */
 public class WenXinUtil {
 
-    private static final String API_KEY = "QEF10qQXFEixgqEbRSEM52qP";
-    private static final String SECRET_KEY = "aiiWkPvvUYX9RRNltxkzHmnfX2vam0yH";
+    //换成自己的密钥。
+    //private static final String API_KEY = "";
+    //private static final String SECRET_KEY = "";
 
     private static final OkHttpClient HTTP_CLIENT = new OkHttpClient.Builder()
             .connectTimeout(30, TimeUnit.SECONDS)
