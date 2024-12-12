@@ -15,9 +15,9 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         AVOSCloud.initialize(this,
-                "gMKoqRbo00tqNh94vsGoep4V-gzGzoHsz",
-                "Y4BPAnAmuub4JZk5dPLUyqmf",
-                "https://gmkoqrbo.lc-cn-n1-shared.com"
+                "gMKoqR********GzoHsz",
+                "Y4BPA*********Uyqmf",
+                "htt***********red.com"    //换成自己的
         );
         // 设置全局的对话事件处理器
         AVIMMessageManager.setConversationEventHandler(new CustomConversationEventHandler());
